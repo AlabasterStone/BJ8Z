@@ -11,7 +11,11 @@
 
 ### 2.运行
 
-Edge Browser: 切换到浏览器文件目录，在powershell中输入`./msedge.exe --remote-debugging-port=9222 --user-data-dir="你想存储profile的路径"`
+Edge Browser: 切换到浏览器文件目录，在powershell中输入`./msedge.exe --remote-debugging-port=9222 --user-data-dir="你想存储profile的路径"`(Chrome同理）
+
+
+其他浏览器开启remote debugging的方法请自行搜索
+
 
 注意⚠️: `--user-data-dir`疑似是必须的，没有这个参数会因为未知原因无法启动remote debugging
 
